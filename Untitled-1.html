@@ -5,7 +5,7 @@
 <title>欢度六一 幸运抽奖</title>
 <style>
     body{
-        background: url(https://s1.ax1x.com/2022/06/01/XJS9zR.jpg);
+        background: url(../html/bg.jpg);
         /* margin: auto; */
         background-repeat: no-repeat; 
         background-size: 100% 100%; 
@@ -53,7 +53,7 @@
         position: absolute;
         left:0;
         top:0;
-        background: url(../html/z.png) no-repeat;
+        background: url(https://s1.ax1x.com/2022/06/01/XJSNWj.png) no-repeat;
         background-size: cover;
         /* background-color:#ff3a59; */
         display: none;
@@ -90,15 +90,15 @@
         <ul id="list">
             <!-- img标签放奖品图片 -->
             <!-- mask类为抽奖滚动起来的标记 -->
-            <li><img src="../html/1.jpg"/><div class="mask"></div></li>
-            <li><img src="../html/2.jpg"/><div class="mask"></div></li>
-            <li><img src="../html/3.jpg"/><div class="mask"></div></li>
-            <li><img src="../html/4.jpg"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJS0O0.jpg"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJSsTU.jpg"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJScY4.png"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJSDmV.jpg"/><div class="mask"></div></li>
             <span id="startbutton" onclick="startlottery()" style="background-color:#ff3a59;color:white;font-size: 20px;">开始抽奖</span>
-            <li><img src="../html/5.jpg"/><div class="mask"></div></li>
-            <li><img src="../html/6.jpg"/><div class="mask"></div></li>
-            <li><img src="../html/8.jpg"/><div class="mask"></div></li>
-            <li><img src="../html/7.jpg"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJSrwT.jpg"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJSI0K.jpg"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJS7kD.jpg"/><div class="mask"></div></li>
+            <li><img src="https://s1.ax1x.com/2022/06/01/XJSbfH.jpg"/><div class="mask"></div></li>
         </ul>
         <div id="message"></div><!-- 获奖信息展示 -->
     </div>
@@ -167,13 +167,13 @@
             if( i >= rNum+num){//当i大于转rNum加随机数字num次计时器结束，出现提示框提示中奖信息
  
                 if (num==1) {
-                   message.innerHTML="恭喜你获得一颗糖果";
+                   message.innerHTML="恭喜你获得试卷一张！";
                 }else if(num==2){
                    message.innerHTML="恭喜你获得一个鲜米饼";
                 }else if(num==3){
                    message.innerHTML="恭喜你获得一张贴纸";
                 }else if(num==4){
-                   message.innerHTML="恭喜你获得试卷一张！";
+                   message.innerHTML="恭喜你获得一颗糖果";
                 }else if(num==5){
                    message.innerHTML="趣味游戏---绕口令";
                 }else if(num==6){
